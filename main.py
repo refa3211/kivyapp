@@ -3,6 +3,7 @@ from kivy.app import App
 from kivymd.theming import ThemeManager
 import qrcode.image.svg
 import zxing
+from kivy.lang import Builder
 
 class QRCodeScannerApp(App):
     def build(self):
