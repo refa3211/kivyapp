@@ -1,0 +1,21 @@
+python
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20
+
+        MDLabel:
+            text: 'Scan a QR Code'
+            font_style: 'Title'
+            halign: 'center'
+
+        MDRaisedButton:
+            text: 'Scan QR Code'
+            on_press: app.scan_qr_code()
+
+        MDLabel:
+            id: qrcode_result
+            text: ''
+            font_style: 'Subhead'
+            halign: 'center'
