@@ -1,4 +1,4 @@
-python
+#python
 from kivy.app import App
 from kivymd.theming import ThemeManager
 import qrcode.image.svg
