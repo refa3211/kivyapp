@@ -18,5 +18,5 @@ source.main = main.py
 
 # (list) List of inclusions using pattern matching
 source.include_exts = py,png,jpg,kv,atlas,wav,mp3,ttf,otf,txt,md,svg
-
+android.permissions = INTERNET,CAMERA
 # (list)
