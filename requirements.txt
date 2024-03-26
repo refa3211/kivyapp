@@ -1,0 +1,4 @@
+kivymd
+ZXing
+qrcode
+buildozer
