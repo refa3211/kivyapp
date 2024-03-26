@@ -8,7 +8,8 @@ from kivy.lang import Builder
 class QRCodeScannerApp(App):
     def build(self):
         self.theme_cls = ThemeManager()
-        return self.theme_cls.load_widget('MainScreen.kv')
+        self.builder = Builder
+        return self.builder.load_file('MainScreen.kv')
 
     def scan_qr_code(self):
         # Initialize the scanner
